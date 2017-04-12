@@ -14,6 +14,8 @@
 
 .carousel-inner img {
     background: no-repeat scroll center center rgba(0, 0, 0, 0);
+       height: 38px;
+    top: 43%;
 
 }
   #left-image-arrow, #right-image-arrow {
