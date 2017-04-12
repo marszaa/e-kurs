@@ -11,6 +11,11 @@
   #przedmioty {padding-top:50px;padding-bottom: 50px;color: #fff; background-color: #e6e6e6;}
   #kontakt {padding-top:50px;padding-bottom: 50px;color: #fff; background-color: #1D3557;}
 
+
+.carousel-inner img {
+    background: no-repeat scroll center center rgba(0, 0, 0, 0);
+
+}
   #left-image-arrow, #right-image-arrow {
       width: 30px;
   }
