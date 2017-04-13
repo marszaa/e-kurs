@@ -23,7 +23,8 @@ $(window).on('resize', function (){
 
 $('.carousel').carousel({
   interval: 6000,
-  pause: "false"
+  pause: "false",
+  infinite: false
 });
 
 /* ANIMATE SECTION 3 */
@@ -67,6 +68,3 @@ function check_if_in_view() {
 $window.on('scroll resize', check_if_in_view);
 $window.trigger('scroll');
 
-$(function () {
-                $('#datetimepicker1').datetimepicker();
-            });
