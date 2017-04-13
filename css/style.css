@@ -343,7 +343,7 @@ a svg {
   background-repeat: no-repeat;
 }
 
-
+/* rwd */ 
 @media (max-width: 779px) {
 .someclassname { 
     display: none;
@@ -378,7 +378,6 @@ a svg {
     font-weight: 400 !important;
    }
 }
-
 @media (max-width: 786px) {
   .item h1 {
     font-size: 60px !important;
