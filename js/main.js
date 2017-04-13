@@ -23,7 +23,8 @@ $(window).on('resize', function (){
 
 $('.carousel').carousel({
   interval: 6000,
-  pause: "false"
+  pause: "false",
+  infinite: false
 });
 
 /* ANIMATE SECTION 3 */
@@ -66,3 +67,7 @@ function check_if_in_view() {
 
 $window.on('scroll resize', check_if_in_view);
 $window.trigger('scroll');
+<<<<<<< HEAD
+=======
+
+>>>>>>> f5fd45f529ee15f0da894951121dcdf6d7651c90
